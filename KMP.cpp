@@ -1,4 +1,4 @@
-extern int KMP(const char *search, const char *find)
+extern __cdecl int KMP(const char *search, const char *find)
 {
 	register size_t search_p = 0u, find_ p = 0u;
 	register int i;
